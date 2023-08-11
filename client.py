@@ -50,3 +50,4 @@ class MessagingApp:
             self.client.send_message(message)
             self.text_area.insert(tk.END, f"You: {message}\n")
             self.entry.delete(0, tk.END)
+
