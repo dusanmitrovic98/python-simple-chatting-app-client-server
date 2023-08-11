@@ -13,3 +13,4 @@ class Server:
         print(f"Listening on {SERVER_HOST}:{SERVER_PORT}")
 
     def start(self):
+        while True:
