@@ -46,3 +46,4 @@ class MessagingApp:
 
     def send_message(self):
         message = self.entry.get()
+        if message:
