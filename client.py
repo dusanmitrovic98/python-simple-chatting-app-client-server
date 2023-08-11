@@ -52,3 +52,4 @@ class MessagingApp:
             self.entry.delete(0, tk.END)
 
 if __name__ == "__main__":
+    root = tk.Tk()
