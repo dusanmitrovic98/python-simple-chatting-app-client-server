@@ -51,3 +51,4 @@ class MessagingApp:
             self.text_area.insert(tk.END, f"You: {message}\n")
             self.entry.delete(0, tk.END)
 
+if __name__ == "__main__":
