@@ -56,3 +56,4 @@ if __name__ == "__main__":
     client = Client()
     app = MessagingApp(root, client)
     root.mainloop()
+
