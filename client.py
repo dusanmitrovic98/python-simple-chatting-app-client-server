@@ -37,3 +37,4 @@ class MessagingApp:
         self.send_button = Button(root, text="Send", command=self.send_message)
         self.send_button.grid(row=2, column=0, columnspan=2, padx=10, pady=5, sticky="ew")
 
+        root.columnconfigure(0, weight=1)  # Make column 0 expand with window width
