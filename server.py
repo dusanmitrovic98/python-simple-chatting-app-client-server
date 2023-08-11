@@ -15,3 +15,4 @@ class Server:
     def start(self):
         while True:
             client_socket, _ = self.server_socket.accept()
+            self.clients.append(client_socket)
