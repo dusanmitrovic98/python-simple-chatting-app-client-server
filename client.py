@@ -35,3 +35,4 @@ class MessagingApp:
         self.entry.grid(row=1, column=0, columnspan=2, padx=10, pady=5, sticky="ew")  # Use sticky="ew"
 
         self.send_button = Button(root, text="Send", command=self.send_message)
+        self.send_button.grid(row=2, column=0, columnspan=2, padx=10, pady=5, sticky="ew")
