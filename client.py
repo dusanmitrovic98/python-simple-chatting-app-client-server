@@ -22,3 +22,4 @@ class Client:
             app.text_area.insert(tk.END, f"Stranger: {message}\n")
 
 class MessagingApp:
+    def __init__(self, root, client):
