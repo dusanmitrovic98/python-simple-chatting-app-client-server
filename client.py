@@ -55,3 +55,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     client = Client()
     app = MessagingApp(root, client)
+    root.mainloop()
