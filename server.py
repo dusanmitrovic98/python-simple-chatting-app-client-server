@@ -16,3 +16,4 @@ class Server:
         while True:
             client_socket, _ = self.server_socket.accept()
             self.clients.append(client_socket)
+            client_thread = threading.Thread(target=self.handle_client, args=(client_socket,))
