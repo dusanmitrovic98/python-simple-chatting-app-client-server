@@ -19,3 +19,4 @@ class Client:
             message = self.client_socket.recv(1024).decode('utf-8')
             if not message:
                 break
+            app.text_area.insert(tk.END, f"Stranger: {message}\n")
