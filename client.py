@@ -40,3 +40,4 @@ class MessagingApp:
         root.columnconfigure(0, weight=1)  # Make column 0 expand with window width
         root.columnconfigure(1, weight=1)  # Make column 1 expand with window width
         root.rowconfigure(0, weight=1)     # Make row 0 expand with window height
+
