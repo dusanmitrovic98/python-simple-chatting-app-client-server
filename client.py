@@ -12,3 +12,4 @@ class Client:
         self.client_socket.connect((SERVER_HOST, SERVER_PORT))
 
     def send_message(self, message):
+        self.client_socket.send(message.encode('utf-8'))
