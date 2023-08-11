@@ -8,3 +8,4 @@ SERVER_PORT = 12345
 
 class Client:
     def __init__(self):
+        self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
