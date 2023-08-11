@@ -20,3 +20,4 @@ class Client:
             if not message:
                 break
             app.text_area.insert(tk.END, f"Stranger: {message}\n")
+
