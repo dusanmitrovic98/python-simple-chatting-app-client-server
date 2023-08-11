@@ -20,3 +20,4 @@ class Server:
             client_thread.start()
 
     def handle_client(self, client_socket):
+        while True:
