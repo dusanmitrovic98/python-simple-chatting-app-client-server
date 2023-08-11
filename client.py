@@ -28,3 +28,4 @@ class MessagingApp:
 
         self.root.title("Simple Messaging App")
 
+        self.text_area = scrolledtext.ScrolledText(root, wrap=tk.WORD)
