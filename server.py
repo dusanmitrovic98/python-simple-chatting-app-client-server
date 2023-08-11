@@ -22,3 +22,4 @@ class Server:
     def handle_client(self, client_socket):
         while True:
             message = client_socket.recv(1024).decode('utf-8')
+            if not message:
