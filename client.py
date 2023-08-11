@@ -21,3 +21,4 @@ class Client:
                 break
             app.text_area.insert(tk.END, f"Stranger: {message}\n")
 
+class MessagingApp:
