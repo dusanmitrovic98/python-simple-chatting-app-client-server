@@ -15,3 +15,4 @@ class Client:
         self.client_socket.send(message.encode('utf-8'))
 
     def start_receiving(self):
+        while True:
