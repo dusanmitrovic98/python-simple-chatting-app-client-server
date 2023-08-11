@@ -24,3 +24,4 @@ class Client:
 class MessagingApp:
     def __init__(self, root, client):
         self.root = root
+        self.client = client
