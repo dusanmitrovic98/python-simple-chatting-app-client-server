@@ -27,3 +27,4 @@ class MessagingApp:
         self.client = client
 
         self.root.title("Simple Messaging App")
+
