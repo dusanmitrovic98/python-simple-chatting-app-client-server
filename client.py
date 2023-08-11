@@ -42,3 +42,4 @@ class MessagingApp:
         root.rowconfigure(0, weight=1)     # Make row 0 expand with window height
 
         self.receiving_thread = threading.Thread(target=self.client.start_receiving)
+        self.receiving_thread.start()
