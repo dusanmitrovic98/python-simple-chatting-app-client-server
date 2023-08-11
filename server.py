@@ -12,3 +12,4 @@ class Server:
         self.clients = []
         print(f"Listening on {SERVER_HOST}:{SERVER_PORT}")
 
+    def start(self):
