@@ -43,3 +43,4 @@ class MessagingApp:
 
         self.receiving_thread = threading.Thread(target=self.client.start_receiving)
         self.receiving_thread.start()
+
