@@ -17,3 +17,4 @@ class Client:
     def start_receiving(self):
         while True:
             message = self.client_socket.recv(1024).decode('utf-8')
+            if not message:
