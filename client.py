@@ -7,3 +7,4 @@ SERVER_HOST = '127.0.0.1'
 SERVER_PORT = 12345
 
 class Client:
+    def __init__(self):
