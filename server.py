@@ -10,3 +10,4 @@ class Server:
         self.server_socket.bind((SERVER_HOST, SERVER_PORT))
         self.server_socket.listen(5)
         self.clients = []
+        print(f"Listening on {SERVER_HOST}:{SERVER_PORT}")
