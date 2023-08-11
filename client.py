@@ -48,3 +48,4 @@ class MessagingApp:
         message = self.entry.get()
         if message:
             self.client.send_message(message)
+            self.text_area.insert(tk.END, f"You: {message}\n")
