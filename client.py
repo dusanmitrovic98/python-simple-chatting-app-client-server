@@ -11,3 +11,4 @@ class Client:
         self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.client_socket.connect((SERVER_HOST, SERVER_PORT))
 
+    def send_message(self, message):
