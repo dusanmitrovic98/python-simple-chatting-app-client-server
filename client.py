@@ -45,3 +45,4 @@ class MessagingApp:
         self.receiving_thread.start()
 
     def send_message(self):
+        message = self.entry.get()
