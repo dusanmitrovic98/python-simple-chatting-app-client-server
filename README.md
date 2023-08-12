@@ -5,3 +5,4 @@ This repository contains a simple client-server chatting application implemented
 ## Server
 
 The server script (`server.py`) sets up a simple chat server that listens for incoming client connections and broadcasts messages between connected clients.
+
