@@ -12,3 +12,4 @@ Run the server by executing the following command:
 
 ```bash
 python server.py
+```
