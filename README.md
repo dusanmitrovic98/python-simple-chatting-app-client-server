@@ -1,1 +1,1 @@
-# python-simple-chatting-app-client-server
+# Simple Chatting App with Python and Tkinter
