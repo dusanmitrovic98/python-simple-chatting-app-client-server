@@ -18,3 +18,4 @@ python server.py
 
 The client script (client.py) establishes a connection to the chat server and enables sending and receiving messages.
 
+# Usage
