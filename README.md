@@ -29,3 +29,4 @@ python client.py
 # Dependencies
 
 1. Python 3.9 or higher
+2. Tkinter (usually included with standard Python installations)
