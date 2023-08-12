@@ -14,3 +14,4 @@ Run the server by executing the following command:
 python server.py
 ```
 
+# Client
