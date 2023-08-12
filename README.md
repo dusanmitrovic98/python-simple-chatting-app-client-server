@@ -8,3 +8,4 @@ The server script (`server.py`) sets up a simple chat server that listens for in
 
 ### Usage
 
+Run the server by executing the following command:
