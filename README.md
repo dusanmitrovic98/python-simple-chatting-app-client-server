@@ -26,3 +26,4 @@ To run multiple clients, execute the following command multiple times:
 python client.py
 ```
 
+# Dependencies
