@@ -35,3 +35,4 @@ python client.py
 
 The server listens for incoming client connections and maintains a list of connected clients. When a client sends a message, the server broadcasts the message to all other connected clients. The client GUI allows users to interact with the server by sending and receiving messages.
 
+undefined
