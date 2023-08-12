@@ -23,3 +23,4 @@ The client script (client.py) establishes a connection to the chat server and en
 To run multiple clients, execute the following command multiple times:
 
 ```bash
+python client.py
